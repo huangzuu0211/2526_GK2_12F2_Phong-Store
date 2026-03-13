@@ -633,6 +633,7 @@ body {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    border-radius: 20px;
 }
 
 #sm-banner .banner-box {
