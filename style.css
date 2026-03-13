@@ -51,6 +51,18 @@ button.normal {
     transition: 0.2s;
 }
 
+button.white {
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 18px;
+    color: #fff;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid #fff;
+    outline: none;
+    transition: 0.2s;
+}
+
 #header {
     display: flex;
     align-items: center;
@@ -616,7 +628,7 @@ body {
     transition: 0.3s;
 }
 
-/* Small Banner 2 */
+/* Small 2 Banner */
 #sm-banner {
     display: flex;
     justify-content: space-between;
@@ -659,8 +671,52 @@ body {
     padding-bottom: 15px;
 }
 
-#sm-banner .banner-box:hover button 
+#sm-banner .banner-box:hover button {
+    background: #088178;
+    border: 1px solid #088178;
+}
 
+
+/* Small 3 Banner */
+#banner3 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#banner3 .banner-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(img/bstxuan.jpg);
+    min-width: 30%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#banner3 .banner-box2 {
+    background-image: url(img/logonike.jpg);
+}
+
+#banner3 .banner-box3 {
+    background-image: url(img/logoadidas.jpg);
+}
+
+#banner3 h2 {
+    color: #fff;
+    font-weight: 900;
+    font-size: 22px;
+}
+
+#banner3 h3 {
+    color: #ec544e;
+    font-weight: 800;
+    font-size: 15px;
+}
 
 /* Newsletter */
 
