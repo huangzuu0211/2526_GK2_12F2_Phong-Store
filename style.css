@@ -1099,26 +1099,53 @@ margin-top:10px;
     z-index: 999;
 }
 
-#navbar {
+#shop-banner {
+    background-image: url("img/banner-shop.jpg"); /* đổi ảnh của bạn */
+    height: 40vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
+    align-items: flex-start;
+    
+    padding: 0 80px;
+    
+    position: relative;
+    color: white;
 }
 
-#navbar li {
-    list-style: none;
-    padding: 0 20px;
+/* overlay làm tối ảnh */
+#shop-banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
 }
 
-#navbar li a {
-    text-decoration: none;
-    color: #1a1a1a;
-    transition: 0.3s;
+/* đảm bảo chữ nằm trên overlay */
+#shop-banner * {
+    position: relative;
+    z-index: 1;
 }
 
-#navbar li a:hover,
-#navbar li a.active {
-    color: #088178;
+#shop-banner h2 {
+    font-size: 46px;
+    margin: 10px 0;
+}
+
+#shop-banner h4 {
+    font-size: 20px;
+}
+
+#shop-banner p {
+    font-size: 16px;
+    margin-bottom: 15px;
 }
 
 #page-header {
