@@ -1040,6 +1040,7 @@ margin-top:10px;
     background: #088178;
     color: #fff;
 }
+
 /* Blog Page */
 #blog  {
     padding: 100px 10% 0px 10%;
@@ -1096,16 +1097,6 @@ margin-top:10px;
 #blog .blog-details p {
     margin-bottom: 20px;
     line-height: 1.5;
-}
-#blog .blog-box h1 {
-    position: absolute;
-    top: -40px;
-    left:0;
-    font-size: 70px;
-    font-weight: 700;
-    color: #c9cbec;
-    z-index: 1;
-    mix-blend-mode: multiply;
 }
 
 /* --- RESPONSIVE CHO BLOG --- */
