@@ -1104,7 +1104,8 @@ margin-top:10px;
     font-size: 70px;
     font-weight: 700;
     color: #c9cbec;
-    z-index: -9;
+    z-index: 1;
+    mix-blend-mode: multiply;
 }
 
 /* --- RESPONSIVE CHO BLOG --- */
